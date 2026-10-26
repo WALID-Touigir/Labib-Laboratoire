@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #006a63;
+  --color-primary-container: #00a89d;
+  --color-primary-fixed: #79f7ea;
+  --color-primary-fixed-dim: #59dace;
+  --color-on-primary: #ffffff;
+  --color-on-primary-fixed: #00201d;
+  --color-on-primary-fixed-variant: #00504a;
+  --color-on-primary-container: #003531;
+
+  --color-secondary: #00687a;
+  --color-secondary-container: #81e5ff;
+  --color-secondary-fixed: #acedff;
+  --color-secondary-fixed-dim: #6ed4ee;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-fixed: #001f26;
+
+  --color-tertiary: #006c53;
+  --color-tertiary-container: #00aa85;
+  --color-tertiary-fixed: #5afccd;
+  --color-tertiary-fixed-dim: #30dfb2;
+  --color-on-tertiary: #ffffff;
+
+  --color-surface: #fbf9f8;
+  --color-surface-bright: #fbf9f8;
+  --color-surface-dim: #dcd9d9;
+  --color-surface-container: #f0eded;
+  --color-surface-container-low: #f6f3f2;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-high: #eae8e7;
+  --color-surface-mint: #f0fcfa;
+  --color-surface-variant: #e4e2e1;
+
+  --color-on-surface: #1b1c1c;
+  --color-on-surface-variant: #3c4947;
+  --color-outline: #6c7a77;
+  --color-outline-variant: #bbc9c7;
+
+  --color-cta-coral: #ff4d5a;
+  --color-whatsapp-green: #25d366;
+  --color-dark-slate: #222831;
+  --color-dark-footer: #2b2d34;
+  --color-error: #ba1a1a;
+  --color-error-container: #ffdad6;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+  }
+}
+
+.font-label-md { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 13px; line-height: 18px; }
+.font-label-sm { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 11px; line-height: 16px; }
+.font-headline-md { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 22px; line-height: 30px; }
+.font-headline-lg { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 28px; line-height: 38px; }
+.font-headline-sm { font-family: 'Montserrat', sans-serif; font-weight: 600; font-size: 18px; line-height: 26px; }
+.font-display-hero { font-family: 'Montserrat', sans-serif; font-weight: 700; font-size: 44px; line-height: 54px; }
+.font-body-md { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 14px; line-height: 22px; }
+.font-body-sm { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 12px; line-height: 18px; }
+.font-body-lg { font-family: 'Open Sans', sans-serif; font-weight: 400; font-size: 16px; line-height: 26px; }

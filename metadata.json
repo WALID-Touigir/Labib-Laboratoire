@@ -1,0 +1,8 @@
+{
+  "name": "Labib Laboratoire",
+  "description": "Labib Laboratoire - Analyses Médicales et Prélèvements à Agadir (Test website for Mahdi Labib)",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
